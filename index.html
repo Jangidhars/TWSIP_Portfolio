@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+            
+        </nav>
+    </header>
+
+    <!--hero section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi,Myself</h3>
+            <h1>Harsh Jangir</h1>
+            <h3>And I'm a <span>Student</span></h3>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/harsh-jangir-296030306"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="MY-CV.PDF" class="btn">Download CV</a>
+        </div>
+
+
+        <div class="home-img">
+            <img src="image/img.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+            <div class="about-content">
+            <h2 class="headings">About <span>Me</span></h2>
+            <p>Welcome to my portfolio.I'm Harsh, a talented and inovative 
+                programmer with a strong passion for designing and building 
+                visually appealing, responsive, and user-friendly websites.
+                I have had the oppertunity to work on a diverse array of web projects,
+                including personal blogs, corporate websites, and e-commerce platforms.
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+     <section class="education" id="education">
+        <h2 class="headings">My <span>Education</span></h2>
+        <div class="content">
+            <div class="box">
+                <h4>2020-21</h4>
+                <h3>Secondary School Degree</h3>
+                <p>I have done my secondary school degree from Gurukul Acedemy Kisangarh renwal(jaipur) I got 94% in 10th.</p>
+            </div>
+            <div class="box">
+                <h4>2022-23</h4>
+                <h3>Senior Secondary School Degree</h3>
+                <p>I have done my senior secondary school degree from Pink City School Hingonia (jaipur) I got 86% in 12th.</p>
+            </div>
+            <div class="box">
+                <h4>2023-24</h4>
+                <h3>Bacholor's Degree</h3>
+                <p>Currently pursuing my bacholor's degree from Arya Institute of Engineering Technologyand and Management(jaipur). In my Ist sem I got 8.17 CGPA.</p>
+            </div>
+        </div>
+     </section>
+
+     <!-- Contact Section -->
+      <section class="contact" id="contact">
+        <h2 class="headings">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="text" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="text" placeholder="Mobile Number">
+                <input type="text" placeholder="Email subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+
+        </form>
+      </section>
+
+      <script src="main.js"></script>
+</body>
+
+</html>
